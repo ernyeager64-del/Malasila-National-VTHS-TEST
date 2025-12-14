@@ -1,0 +1,85 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My School Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">Malasila National Vocational and Technological High School</div>
+        <ul class="nav-links">
+            <li><a href="#majors">Majors</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#login">Login</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <h1>Welcome to Our School!</h1>
+        <p>Explore our amazing majors and exciting events.</p>
+        <a href="#majors" class="btn">Explore Majors</a>
+    </header>
+
+    <!-- Majors Section -->
+    <section id="majors" class="majors-section">
+        <h2>Our Majors</h2>
+        <div class="majors-container">
+            <div class="major-card">
+                <h3>Dress Making</h3>
+                <p>“Unleash your creativity! Design and create stylish clothing, from stitching basics to advanced fashion techniques.” </p>
+            </div>
+            <div class="major-card">
+                <h3> Cookery</h3>
+                <p> “Turn ingredients into delicious meals! Learn cooking, baking, and presentation skills to delight taste buds.” </p>
+            </div>
+            <div class="major-card">
+                <h3>Electronics Product Assembly System </h3>
+                <p>“Learn to build, test, and repair electronic gadgets and devices. From circuits to hands-on projects, get ready to create technology!”</p>
+            </div>
+            <div class="major-card">
+                <h3> Computer Systems Servicing (CSS)</h3>
+                <p>“Master computer maintenance, hardware troubleshooting, and software installation. Keep systems running smoothly with your skills!”</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="events-section">
+        <h2>School Events Calendar</h2>
+        <div class="calendar">
+            <div class="event" data-date="2025-12-20">
+                <h4>Winter Festival</h4>
+                <p>Fun activities and performances for all students.</p>
+            </div>
+            <div class="event" data-date="2025-12-25">
+                <h4>Christmas Break</h4>
+                <p>School closed for holiday break.</p>
+            </div>
+            <div class="event" data-date="2026-01-10">
+                <h4>Science Fair</h4>
+                <p>Showcase your amazing science projects!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Login Section -->
+    <section id="login" class="login-section">
+        <h2>Student Login</h2>
+        <form id="loginForm">
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+        <p id="loginMessage"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 My School. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
